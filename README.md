@@ -24,7 +24,7 @@ A modern and responsive Nostra E-Commerce Website built using HTML5, CSS3, and J
 🔗 Project Links
 
 - 🌐 Live Demo: "View Live Website" (YOUR_LIVE_DEMO_LINK)
-- 💻 GitHub Repository: "View Source Code" (YOUR_GITHUB_REPOSITORY_LINK)
+- 💻 GitHub Repository: "View Source Code" (https://github.com/sriharini252004-dev/Nostra-E-commerce-website.git)
 
 🎯 Project Objective
 
