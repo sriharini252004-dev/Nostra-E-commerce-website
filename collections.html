@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Nostra</h1>
+        <p>Fashion & Lifestyle</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="menu" onclick="toggleMenu()">☰</div>
+</header>
+
+<section class="collection-heading">
+    <h1>Our Collections</h1>
+    <p>Explore our latest fashion products</p>
+</section>
+
+<section class="collection-section">
+
+    <div class="filters">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+        >
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="shoes">Shoes</option>
+            <option value="accessories">Accessories</option>
+        </select>
+
+        <select id="priceFilter">
+            <option value="all">All Prices</option>
+            <option value="500">Below ₹500</option>
+            <option value="1000">Below ₹1000</option>
+            <option value="2000">Below ₹2000</option>
+        </select>
+
+    </div>
+
+    <div class="collection-products" id="productContainer">
+
+        <div class="product-card"
+             data-name="White T Shirt"
+             data-category="men"
+             data-price="599">
+
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80">
+            <h3>White T-Shirt</h3>
+            <p>₹599</p>
+            <span>Men</span>
+        </div>
+
+        <div class="product-card"
+             data-name="Black T Shirt"
+             data-category="men"
+             data-price="499">
+
+            <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=500&q=80">
+            <h3>Black T-Shirt</h3>
+            <p>₹499</p>
+            <span>Men</span>
+        </div>
+
+        <div class="product-card"
+             data-name="Denim Jacket"
+             data-category="men"
+             data-price="1299">
+
+            <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=500&q=80">
+            <h3>Denim Jacket</h3>
+            <p>₹1,299</p>
+            <span>Men</span>
+        </div>
+
+        <div class="product-card"
+             data-name="Women Dress"
+             data-category="women"
+             data-price="1499">
+
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=500&q=80">
+            <h3>Women Dress</h3>
+            <p>₹1,499</p>
+            <span>Women</span>
+        </div>
+
+       <div class="product-card"
+     data-name="Casual Shoes"
+     data-category="shoes"
+     data-price="999">
+
+    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=500&q=80">
+
+    <h3>Casual Shoes</h3>
+    <p>₹999</p>
+    <span>Shoes</span>
+     </div>
+
+        <div class="product-card"
+             data-name="Running Shoes"
+             data-category="shoes"
+             data-price="1799">
+
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80">
+            <h3>Running Shoes</h3>
+            <p>₹1,799</p>
+            <span>Shoes</span>
+        </div>
+
+        <div class="product-card"
+             data-name="Leather Bag"
+             data-category="accessories"
+             data-price="1899">
+
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=500&q=80">
+            <h3>Leather Bag</h3>
+            <p>₹1,899</p>
+            <span>Accessories</span>
+        </div>
+
+        <div class="product-card"
+             data-name="Classic Watch"
+             data-category="accessories"
+             data-price="1999">
+
+            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=500&q=80">
+            <h3>Classic Watch</h3>
+            <p>₹1,999</p>
+            <span>Accessories</span>
+        </div>
+
+    </div>
+
+    <p id="noProducts">No products found.</p>
+
+</section>
+
+<footer>
+    <h2>Nostra</h2>
+    <p>Fashion & Lifestyle Store</p>
+    <p>© 2026 Nostra. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
